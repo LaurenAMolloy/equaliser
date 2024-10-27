@@ -5,3 +5,18 @@
     overflow: hidden;
     /* or auto */
 }
+
+.custom-height {
+    height: 1000px;
+}
+
+.card {
+    background-color: #FA7453;
+    min-height: 632px;
+    max-width: 512px;
+}
+
+.phone {
+    max-width: 369px;
+    height: 643px;
+}
