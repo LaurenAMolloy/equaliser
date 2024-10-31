@@ -1,22 +1,42 @@
-.container-fluid {
-    background-image: url(/starter-code/assets/bg-main-desktop.png);
+body {
+    background-image: url(/starter-code/assets/bg-main-mobile.png);
     background-repeat: no-repeat;
-    background-position: center;
-    overflow: hidden;
-    /* or auto */
+    background-position: top;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
 }
 
-.custom-height {
-    height: 1000px;
+.h1 {
+    font-size: 2.5rem;
+}
+
+.bg {
+    background-image: url(/starter-code/assets/hero.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #191826;
+    width: 100%;
+    min-height: 400px;
+    /* Adjust as needed */
+    position: relative;
+    z-index: 1;
+
+}
+
+.phone {
+    width: 200px;
+    height: auto;
+    top: -80px;
+    /* Adjust this value to move it higher */
+    z-index: 2;
+    position: absolute;
 }
 
 .card {
     background-color: #FA7453;
-    min-height: 632px;
-    max-width: 512px;
-}
-
-.phone {
-    max-width: 369px;
-    height: 643px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
